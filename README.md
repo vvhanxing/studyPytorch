@@ -18,10 +18,12 @@ vim ~/.bashrc
 
 
 export  PATH="/home/xyz/miniconda3/bin:"$PATH
+
 alias condapython="/home/xyz/miniconda3/bin/python3.7"
 
 
 export PATH="/usr/bin:"$PATH #保持原有python最先被检索到，从而不先运行conda中的python
+
 alias python="/usr/bin/python2.7"
 
 
